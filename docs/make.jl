@@ -15,7 +15,6 @@ makedocs(
     # documentation checks
     modules = [MarkdownAST],
     checkdocs = :all,
-    strict = true,
 )
 
 deploydocs(
